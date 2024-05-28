@@ -18,5 +18,12 @@ CEBRA has both supervised and unsupervised modes of learning the embedding space
 
 From this pair of embeddings, we can see that there is a clustering of the rewarded (light blue) and unrewarded (purple) trials when we use CEBRA behaviour. The CEBRA-Time embedding is used as a control here. CEBRA-Time embedding is constructed using the unsupervised mode and so the labels we defined earlier to group trials into rewarded and unrewarded were absent in this case.
 
+## Summary Plot
+
+We ran CEBRA on multiple sessions of the same data and generated a table documenting the quality of the embeddings and how well each of the neuromodulators captured the presence/absence of reward.
+
+![Figure showing the AUC scores for the embeddings produced from the Neuromodulator data and rewarded/unrewarded labels](summary_100.png)
+**Figure 2: Figure showing the AUC scores for the embeddings produced from the Neuromodulator data and rewarded/unrewarded labels**
+
 ## Next Steps
 The obvious next steps are to try this on all trials and include a third label, `no choice`, and see how well CEBRA can separate all three. We would also like to define and use other behavioural labels that we think are directly related to the recordings of the NMs in this task. This example only shows CEBRA using discrete labels, so one of the next examples will aim to show CEBRA using continuous labels. This particular embedding also doesn't show the relative contribution of each Neuromodulator to the separation of trials based on reward.
