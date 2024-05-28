@@ -13,7 +13,7 @@ In the preliminary analysis, we only considered trials where the mouse made a ch
 CEBRA has both supervised and unsupervised modes of learning the embedding space. In the supervised mode, also known as CEBRA-Behaviour, the user defines labels to be used to classify the input data. These labels can be continuous or discrete. In this analysis, each trial was labelled as rewarded/unrewarded.
 
 ## Example Embedding
-![CEBRA Embeddings showing separation of trials into rewarded (light blue) and unrewarded (purple) from one session](12.png)
+![CEBRA Embeddings showing separation of trials into rewarded (light blue) and unrewarded (purple) from one session](Exmple_embedding.png)
 **Figure 1: CEBRA Embeddings showing separation of trials into rewarded (light blue) and unrewarded (purple) from one session**
 
 From this pair of embeddings, we can see that there is a clustering of the rewarded (light blue) and unrewarded (purple) trials when we use CEBRA behaviour. The CEBRA-Time embedding is used as a control here. CEBRA-Time embedding is constructed using the unsupervised mode and so the labels we defined earlier to group trials into rewarded and unrewarded were absent in this case.
