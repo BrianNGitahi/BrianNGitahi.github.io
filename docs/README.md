@@ -14,6 +14,7 @@ CEBRA has both supervised and unsupervised modes of learning the embedding space
 
 ## Example Embedding
 ![CEBRA Embeddings showing separation of trials into rewarded (light blue) and unrewarded (purple) from one session](Exmple_embedding.png)
+
 **Figure 1: CEBRA Embeddings showing separation of trials into rewarded (light blue) and unrewarded (purple) from one session**
 
 From this pair of embeddings, we can see that there is a clustering of the rewarded (light blue) and unrewarded (purple) trials when we use CEBRA behaviour. The CEBRA-Time embedding is used as a control here. CEBRA-Time embedding is constructed using the unsupervised mode and so the labels we defined earlier to group trials into rewarded and unrewarded were absent in this case.
@@ -23,6 +24,7 @@ From this pair of embeddings, we can see that there is a clustering of the rewar
 We ran CEBRA on multiple sessions of the same data and generated a table documenting the quality of the embeddings and how well each of the neuromodulators captured the presence/absence of reward.
 
 ![Figure showing the AUC scores for the embeddings produced from the Neuromodulator data and rewarded/unrewarded labels](summary_100.png)
+
 **Figure 2: Figure showing the AUC scores for the embeddings produced from the Neuromodulator data and rewarded/unrewarded labels**
 
 ## Next Steps
