@@ -1,5 +1,4 @@
-# BrianNGitahi.github.io
-Demos and examples on how to use CEBRA with your datasets.
+# Demos and examples on how to use CEBRA with your datasets
 
 This repository contains a concise demo and example on how to use CEBRA with your datasets.
 It will regularly be updated with more examples.
