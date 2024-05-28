@@ -1,4 +1,4 @@
-# Demos and examples on how to use CEBRA with your datasets
+# Demos on how to use CEBRA 
 
 This repository contains a concise demo and example on how to use CEBRA with your datasets.
 It will regularly be updated with more examples.
