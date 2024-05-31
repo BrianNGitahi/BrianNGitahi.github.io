@@ -1,8 +1,6 @@
-# Demo on how to use CEBRA with a dataset from AIND
-
-
 ## Summary
-This document summarizes the Jupyter notebook, AIND-DATA, that shows a preliminary demo on how to use CEBRA with AIND data. It will cover the formatting of data from the Fibre Photometry pipeline of 4 Neuromodulators (DA, 5HT, ACh, NE) recorded in the Nucleus Accumbens region. It will also briefly describe the labels used with CEBRA and explain one set of embeddings.
+This document summarizes the Jupyter notebook, AIND-DATA, that shows a preliminary demo on how to use CEBRA with AIND data. It will cover the formatting of data from the Fibre Photometry pipeline of 4 Neuromodulators (DA, 5HT, ACh, NE) recorded in the Nucleus Accumbens region. It will also briefly describe the labels used with CEBRA and explain one set of embeddings. For a more hands-on intro to CEBRA, check out the notebook Basics.ipynb which provides a more general overview with some snippets from demos on the Mathis's lab webpage.
+
 
 ## Formatting Data
 In this foraging task, the mouse is given a binary choice, to lick right or left on each trial. Each choice the mouse makes is either rewarded or unrewarded. For this analysis, we want to view the neural data in a 1 second window around the choice time at each trial in the session. The hope is that this will make it easy to identify the presence/absence of reward in the neuromodulator signal.
