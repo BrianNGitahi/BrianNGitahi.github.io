@@ -1,4 +1,4 @@
-# Demos on how to use CEBRA 
+# Demo on how to use CEBRA with a dataset from AIND
 
 
 ## Summary
