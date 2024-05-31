@@ -23,7 +23,7 @@ From this pair of embeddings, we can see that there is a clustering of the rewar
 
 We ran CEBRA on multiple sessions of the same data and generated a table documenting the quality of the embeddings and how well each of the neuromodulators captured the presence/absence of reward.
 
-![Figure showing the AUC scores for the embeddings produced from the Neuromodulator data and rewarded/unrewarded labels](summary_100.png)
+![Figure showing the AUC scores for the embeddings produced from the Neuromodulator data and rewarded/unrewarded labels](summary_130.png)
 
 **Figure 2: Figure showing the AUC scores for the embeddings produced from the Neuromodulator data and rewarded/unrewarded labels**
 
