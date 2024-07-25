@@ -13,14 +13,14 @@ CEBRA has both supervised and unsupervised modes of learning the embedding space
   - left/right for the choice labels
   - a value in the range (-1,1) for the RPE labels
 
-## Example Embedding
+## Example Embeddings
 ![CEBRA Embeddings showing separation of trials into rewarded (light blue) and unrewarded (purple) from one session](Exmple_embedding.png)
 
 **Figure 1: CEBRA Embeddings showing separation of trials into rewarded (light blue) and unrewarded (purple) from one session**
 
 From this pair of embeddings, we can see that there is a clustering of the rewarded (light blue) and unrewarded (purple) trials when we use CEBRA behaviour. The CEBRA-Time embedding is used as a control. CEBRA-Time embedding is constructed using the unsupervised mode and so the labels we defined earlier to group trials into rewarded and unrewarded are absent when using CEBRA-Time but present when using CEBRA-Behaviour.
 
-## Summary Plot
+## Summary Plots
 
 We ran CEBRA on multiple sessions of the same data and generated a table documenting the quality of the embeddings and how well each of the neuromodulators captured the presence/absence of reward using the area under the ROC curve (AUC). A higher AUC score means the model can more accurately classify the trials based on the provided labels. We run the analysis in two different ways:
   - we ran it using the full dataset consisting of 4 neuromodulators: this produced the best auc score mean across all sessions
