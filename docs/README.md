@@ -9,6 +9,8 @@ In the preliminary analysis, we only considered trials where the mouse made a ch
 
 ![Figure showing structure of the neural data](signal.png)
 
+We use these 4 neuromodulators as a combined, high-dimensional input to CEBRA with shape [number of trials, (number of timesteps x number of neuromodulators)].
+
 **Figure showing structure of the neural data**
 
 ## Behaviour Labels
