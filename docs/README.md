@@ -14,6 +14,7 @@ In the preliminary analysis, we only considered trials where the mouse made a ch
 We use these 4 neuromodulators as a combined, high-dimensional input to CEBRA with shape [number of trials, (number of timesteps x number of neuromodulators)]. This neural data can be used as is with an unsupervised CEBRA-Time model or it can be paired with a behavioural label and used with a supervised CEBRA-Behaviour model.
 
 ![Figure showing structure of the neural data](signal2.png)
+
 **Figure showing structure of the neural data**
 
 ## Behaviour Labels
