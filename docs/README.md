@@ -7,7 +7,8 @@ In this foraging task, the mouse is given a binary choice, to lick right or left
 
 In the preliminary analysis, we only considered trials where the mouse made a choice. For each of these trials, we found the timestamp of the dF/F signal that was closest in time to the time of the choice. We then used this temporal information to get the 10 preceding and subsequent dF/F signal values from the 'choice time'.
 
-![Figure showing structure of the neural data](signal.png)(signal2)
+![Figure showing structure of the neural data](signal.png)
+**Figure showing structure of the neural data**
 
 ## Behaviour Labels
 CEBRA has both supervised and unsupervised modes of learning the embedding space. In the supervised mode, also known as CEBRA-Behaviour, the user defines labels to be used to classify the input data. These labels can be continuous or discrete. In this analysis, we tested 3 different labels: reward labels, choice labels and RPE (reward prediction error) labels, where each trial was labelled as:
