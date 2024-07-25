@@ -14,7 +14,7 @@ CEBRA has both supervised and unsupervised modes of learning the embedding space
   - a value in the range (-1,1) for the RPE labels
 
 ## Example Embeddings
-![CEBRA Embeddings showing separation of trials into rewarded (light blue) and unrewarded (purple) from one session](Exmple_embedding.png)
+![CEBRA Embeddings showing separation of trials into rewarded (light blue) and unrewarded (purple) from one session](r_embeds.png)
 
 **Figure 1: CEBRA Embeddings showing separation of trials into rewarded (light blue) and unrewarded (purple) from one session**
 
@@ -28,14 +28,15 @@ We ran CEBRA on multiple sessions of the same data and generated a table documen
 
 ![Figure showing the AUC scores for the embeddings produced from the Neuromodulator data and rewarded/unrewarded labels](reward.png)
 
-**Figure 2: Figure showing the AUC scores for the embeddings produced from the Neuromodulator data and rewarded/unrewarded labels**
+**Figure 2: Figure showing the AUC scores for the embeddings produced from the Neuromodulator data and rewarded/unrewarded labels (one point is one trial)**
 
 ## Choice Label Analysis
 
 We also ran CEBRA on the same data with two other label types. The first one we used was a choice label, i.e. wheter the mouse chose to lick left or right on a particular trial. For this, I define a left trial as a trial in which the mouse had more licks to the left and similarly for the right trial. For this behaviour label, we are also able to recover an accurate classification of the trials in a session into left/right trials as shown in this example embedding:
 
-_figure here_
+![CEBRA Embeddings showing separation of trials into left choice trials (light blue) and right choice (purple) trials from one session](c_embeds2.png)
 
+**Figure 3: Figure showing the AUC scores for the embeddings produced from the Neuromodulator data and left/right choice labels (one point is one trial)**
 
 We also ran this analysis on multiple sessions and generated a summary plot like before:
 
@@ -48,7 +49,9 @@ In the case of choice labels, the performance of CEBRA in decoding the label fro
 
 The last label we succesfully used was the RPE label. This label was different from the first two in that it is a continuous label rather than a discrete label, i.e. it can take a range of values in (-1,1) as opposed to the discrete, binary labels from before {0,1}. It follows that the reconstruction score used will be different. Here, we use the R^2^ score to quantify how well CEBRA decodes the labels in the embedding that it computes. The embeddings show a similar distinction between high RPE values and low RPE values, except in this case, there's a gradient in the colour that takes on continuous values as shown below (high RPE values are in the yellow region of the spectrum and low RPE values are in the purple region):
 
-_figure here_
+![CEBRA Embeddings showing separation of trials into high RPE trials(light/yellow shade) and low RPE trials (dark/purple shade) from one session](rpe_embeds2.png)
+
+**Figure 3: Figure showing the AUC scores for the embeddings produced from the Neuromodulator data and left/right choice labels (one point is one trial)**
 
 Again, we ran the analysis on multiple sessions and the summary plot is shown below:
 
