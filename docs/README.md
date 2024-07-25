@@ -7,10 +7,13 @@ In this foraging task, the mouse is given a binary choice, to lick right or left
 
 In the preliminary analysis, we only considered trials where the mouse made a choice. For each of these trials, we found the timestamp of the dF/F signal that was closest in time to the time of the choice. We then used this temporal information to get the 10 preceding and subsequent dF/F signal values from the 'choice time'.
 
-![Figure showing structure of the neural data](signal.png)
+![Figure showing the different neuromodulator signals around the choice time, separated into rewarded and unrewarded trials](signal.png)
 
-We use these 4 neuromodulators as a combined, high-dimensional input to CEBRA with shape [number of trials, (number of timesteps x number of neuromodulators)].
+**Figure showing the different neuromodulator signals around the choice time, separated into rewarded and unrewarded trials**
 
+We use these 4 neuromodulators as a combined, high-dimensional input to CEBRA with shape [number of trials, (number of timesteps x number of neuromodulators)]. This neural data can be used as is with an unsupervised CEBRA-Time model or it can be paired with a behavioural label and used with a supervised CEBRA-Behaviour model.
+
+![Figure showing structure of the neural data](signal2.png)
 **Figure showing structure of the neural data**
 
 ## Behaviour Labels
